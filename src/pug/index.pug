@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+
+html(lang="ru")
+  include components/head.pug
+  include sections/header.pug
+
+  body
+
+    section.q-price
+      .q-inner
+        .q-price__title Buy Our Safe & Secure VPN
+        
+        .q-price__box
+          .q-price__box--subtitle STEP 1
+          .q-price__box--title Choose Your Plan
+          .q-price__box-items#box
+            .q-price__item
+              .q-price__item--title MONTHLY
+              .q-price__item--cost
+                sup $
+                span 6.95
+                sub /mo.
+              .q-price__item--info.first-item Includes all VPN features.
+              button(type='submit').q-price__item--button SELECT PLAN
+              
+            .q-price__item.active
+              .q-price__item--title TWO YEARS
+              .q-price__item--cost 
+                sup $
+                span 2.91
+                sub /mo.
+              .q-price__item--info
+                span $166.80 
+                | $69.95 per two years
+              .q-price__item--info-useful Save 58%*
+              button(type='submit').q-price__item--button SELECT PLAN
+            .q-price__item
+              .q-price__item--title YEARLY
+              .q-price__item--cost
+                sup $
+                span 3.33
+                sub /mo.
+              .q-price__item--info
+                span $83.40
+                | $39.95 per year
+              .q-price__item--info-useful Save 52%*
+              button(type='submit').q-price__item--button SELECT PLAN
+
+
+
+
+      
+    include sections/footer.pug
+    include components/scripts.pug
+    
+    
+
+
+
+  // END CODE HERE <===
+
+  
+
+
+
+
+
+
+
+
+  
+  
+

@@ -1,0 +1,113 @@
+.q-price
+    text-align: center
+    padding: 35px 0px
+    &__title
+        font-size: 56px
+        color: #22252e
+        font-family: "Roboto-Light"
+        margin-bottom: 70px
+    &__box
+        &--subtitle
+            font-family: "Roboto-Medium"
+            font-size: 14px
+            color: #4cb649
+            margin-bottom: 13px
+        &--title
+            font-family: "Roboto-Light"
+            font-size: 32px
+            color: #22252e
+            margin-bottom: 57px
+    &__box-items
+        display: flex
+        justify-content: center
+        align-items: center
+    &__item
+        background-color: #ffffff
+        margin: 0px 8px
+        padding: 48px
+        width: calc(33% - 16px)
+
+        &--title
+            font-family: "Roboto-Medium"
+            font-size: 14px
+            color: #323642
+            margin-bottom: 30px
+            position: relative
+            &::before
+                position: absolute
+                content: ""
+                width: 25px
+                height: 3px
+                background-color: #4cb649
+                bottom: -15px
+                margin: 0 auto
+                left: 0
+                right: 0
+
+
+
+        &--cost 
+            border-bottom: 2px solid #ebeced
+            padding-bottom: 24px
+            sup, sub
+                font-size: 24px
+            span
+                font-size: 56px
+                margin: 0px 8px
+                
+        &--info
+            font-family: "Roboto-Regular"
+            font-size: 14px
+            color: #323642
+            margin-top: 17px
+            margin-bottom: 10px
+            span 
+                color: #f24458
+                margin-right: 13px
+        .first-item
+            margin-top: 31px
+            margin-bottom: 44px
+        &--info-useful
+            font-family: "Roboto-Black"
+            margin-bottom: 28px
+        &--button
+            border: 1px solid #4cb649
+            border-radius: 25px
+            padding: 12px 60px 15px 55px
+            background-color: transparent
+            color: #4cb649
+.active
+    border: 4px solid #ff8d00
+    background-color: #ffffff
+    padding: 61px 48px
+    .q-price__item--title
+        font-family: "Roboto-Black"
+        font-size: 14px
+        color: #323642
+        margin-bottom: 30px
+    .q-price__item--cost  
+        sup, sub
+            font-size: 24px
+        span
+            font-size: 56px
+            margin: 0px 8px
+    .q-price__item--info
+        font-family: "Roboto-Regular"
+        font-size: 14px
+        color: #323642
+        span 
+            color: #f24458
+            margin-right: 13px
+    .q-price__item--info-useful
+        font-family: "Roboto-Black"
+        margin-bottom: 28px
+    .q-price__item--button
+        border: 1px solid #ff8d00
+        border-radius: 25px
+        padding: 11px 50px 14px 45px
+        background-color: #ff8d00
+        color: #fff
+
+
+            
+
